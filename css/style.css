@@ -474,6 +474,31 @@ body {
     gap: 32px;
 }
 
+.action-boxes .action-box-grid .img {
+    overflow: hidden;
+}
+
+.action-boxes .action-box-grid .img img {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+
+.action-boxes .action-box-grid .position-relative:hover img {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
 .action-boxes .action-box-grid .overlay {
     position: absolute;
     top: 0;
